@@ -37,6 +37,12 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
 
 ### PROCEDURE:
 
+1.Open the roboanalyzer software.
+2.Select the robot and its degrees of freedom.
+3.Change the values with the link lenght wherever necessary.
+4.Stimulate the model for forward kinematics.
+5.Plot the graph between the link and the joints.
+6.Update the DH parameters of the link configuration and end effector configuration.
 
 
 
@@ -45,14 +51,22 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
 
 
 ### SIMULATION 
- 
- 
+
+![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/42056818-1185-4cc6-9d5d-e5a7040fc478)
+![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/f741c990-f675-4f93-9d45-7d90419d0ef3)
+
+
  
  
  
  
  
  ### PLOT 
+ ![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/0dac4870-0e24-44ce-a101-81def4b4cf5f)
+![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/d83c3829-cc53-40df-acee-d31042dfaeee)
+
+ 
+ 
  
  
  
@@ -62,9 +76,6 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
  
  
  
- 
- 
- 
 
  
  
@@ -82,4 +93,4 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
 
 
 
-### RESULTS :  
+### RESULTS :  Thus, the forward kinematics using DH paramerters for a 4 and 6 dof robot using roboanalyzer is analysed and the graph for link cordinates and joint angles is plotted.
