@@ -36,12 +36,16 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
 ![image](https://user-images.githubusercontent.com/36288975/170623020-f27efc12-bb58-4f62-840d-af544ac6689e.png)
 
 ### PROCEDURE:
-
 1.Open the roboanalyzer software.
+
 2.Select the robot and its degrees of freedom.
-3.Change the values with the link lenght wherever necessary.
-4.Stimulate the model for forward kinematics.
-5.Plot the graph between the link and the joints.
+
+3.Change the values of X and Y wherever necessary.
+
+4.Stimulate the model for inverse kinematics.
+
+5.Plot the graph between the joints.
+
 6.Update the DH parameters of the link configuration and end effector configuration.
 
 
@@ -49,11 +53,17 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
 
 
 
+### SIMULATION :
+RPR ROBOT:
 
-### SIMULATION 
+![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/c4b5cebb-c20a-475a-a664-d0c81fbea2fe)
+![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/d2d9401f-6416-4fe6-bb1c-611f61e558c3)
+3R ROBOT:
+![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/3252bd2d-73be-4e15-ae94-0c79e159ec22)
+![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/5f4fe75f-5ffc-4b44-a318-f8717db431a2)
 
-![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/42056818-1185-4cc6-9d5d-e5a7040fc478)
-![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/f741c990-f675-4f93-9d45-7d90419d0ef3)
+
+
 
 
  
@@ -62,8 +72,12 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
  
  
  ### PLOT 
- ![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/0dac4870-0e24-44ce-a101-81def4b4cf5f)
-![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/d83c3829-cc53-40df-acee-d31042dfaeee)
+RPR ROBOT:
+![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/94fee6bd-99c0-47ab-9165-e8d3f35d99af)
+![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/a77fbaed-0c6a-4305-b914-9cddabb106ef)
+3R ROBOT:
+![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/07a57feb-1c55-4821-b0ae-526859f3c933)
+![image](https://github.com/Naveenaa28/Inverse-kinematic-modeling-using-robo-analyzer-/assets/131433133/8550ff21-13a5-44c8-81fe-87a4799269ca)
 
  
  
@@ -93,4 +107,4 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
 
 
 
-### RESULTS :  Thus, the forward kinematics using DH paramerters for a 4 and 6 dof robot using roboanalyzer is analysed and the graph for link cordinates and joint angles is plotted.
+### RESULTS :  Thus,the inverse kinematics using DH parameters for a 3 dof planer and 3 dof articulated robot using roboanalyzer is analysed and the graph of joint angle for a given input end effector position is plotted.
